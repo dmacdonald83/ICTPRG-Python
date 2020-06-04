@@ -1,0 +1,7 @@
+START
+PROGRAM greet_user
+    INPUT name
+    IF name EQUALS "frank" OR name EQUALS "george" THEN
+        DISPLAY greeting message and user's name
+    ENDIF
+ENDPROGRAM

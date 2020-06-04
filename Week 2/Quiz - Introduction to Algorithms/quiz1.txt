@@ -1,0 +1,5 @@
+START
+PROGRAM greet_user
+    INPUT name
+    DISPLAY greeting message and user's name
+ENDPROGRAM

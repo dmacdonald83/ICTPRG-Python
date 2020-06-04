@@ -1,0 +1,56 @@
+PROGRAM exercise1
+INPUT n1
+INPUT n2
+INPUT n3
+COMPUTE average of n1,n2,n3
+DISPLAY average
+ENDPROGRAM
+
+PROGRAM exercise2
+INIT a = 0
+INIT b = 0
+INPUT integer
+IF integer > 100 THEN
+    CALCULATE a = a + integer
+ELSE
+    CALCULATE b = b + integer
+ENDIF
+DISPLAY a
+DISPLAY b
+ENDPROGRAM
+
+PROGRAM exercise3
+INPUT number
+FOR x = 1 TO number
+    DISPLAY x
+ENDFOR
+ENDPROGRAM
+
+PROGRAM exercise4
+FOR x = 1 TO 20
+    IF x IS ODD THEN
+        DISPLAY x
+    ENDIF
+ENDFOR
+ENDPROGRAM
+
+PROGRAM exercise5
+INIT max = 0
+INPUT n1
+INPUT n2
+INPUT n3
+IF n1 > n2 THEN
+    IF n1 > n3 THEN
+        SET max = n1
+    ELSE
+        SET max = n3
+    ENDIF
+ELSE
+    IF n2 > n3 THEN
+        SET max = n2
+    ELSE
+        SET max = n3
+    ENDIF
+ENDIF
+DISPLAY max
+ENDPROGRAM

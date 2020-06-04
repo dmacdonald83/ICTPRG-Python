@@ -1,0 +1,19 @@
+START
+
+
+IF user is happy THEN
+    smile
+ELSE
+    frown
+ENDIF
+
+
+WHILE user is happy THEN
+    smile
+ENDWHILE
+
+
+FOR each day in month
+    COMPUTE current week
+    PRINT current week
+ENDFOR

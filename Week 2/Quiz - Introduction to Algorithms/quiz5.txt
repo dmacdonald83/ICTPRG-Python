@@ -1,0 +1,15 @@
+START
+PROGRAM question5
+    DISPLAY "Enter some numbers (Press x to stop):"
+    INIT num = 0
+    INIT sum = 0
+    WHILE num NOT EQUALS "x"
+        INPUT num
+        IF num NOT EQUALS "x" THEN
+            INIT integer = 0
+            CALCULATE integer = INTEGER VALUE OF num
+            CALCULATE sum = sum + integer
+        ENDIF
+    ENDWHILE
+    DISPLAY sum
+ENDPROGRAM

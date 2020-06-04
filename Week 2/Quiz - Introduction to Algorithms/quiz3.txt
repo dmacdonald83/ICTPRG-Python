@@ -1,0 +1,17 @@
+START
+PROGRAM login
+  DISPLAY username_prompt
+  INPUT username
+  DISPLAY password_prompt
+  IF username EQUALS "bob" AND password EQUALS "password1234" THEN
+    DISPLAY "Access Granted!"
+  ELSE
+    DISPLAY "Access Denied!"
+  ENDIF
+
+  IF username EQUALS "frank" AND password EQUALS "correctpassword" THEN
+    DISPLAY "Access Granted!"
+  ELSE
+    DISPLAY "Access Denied!"
+  ENDIF
+ENDPROGRAM

@@ -1,0 +1,17 @@
+START
+PROGRAM question4
+  INPUT number1
+  INPUT number2
+  INIT summed = 0
+  INIT multiplied = 0
+  INIT divided = 0
+  INIT subtracted = 0
+  CALCULATE summed = number1 + number2
+  CALCULATE multiplied = number1 * number2
+  CALCULATE divided = number1 / number2
+  CALCULATE subtracted = number1 - number2
+  DISPLAY summed
+  DISPLAY multiplied
+  DISPLAY divided
+  DISPLAY subtracted
+ENDPROGRAM
